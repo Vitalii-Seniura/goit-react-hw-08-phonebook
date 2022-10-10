@@ -5,8 +5,8 @@ import { ContactForm } from './ContactForm/contactForm';
 import ContactList from './ContactList/contactList';
 import PropTypes from 'prop-types';
 import Filter from './Filter/filter';
-import { setFilter } from 'redux/filterSlice';
-import { operations, selectors } from '../redux';
+import { setFilter } from 'redux/contacts/filterSlice';
+import { operations, selectors } from '../redux/contacts';
 
 export const App = () => {
   const dispatch = useDispatch();
