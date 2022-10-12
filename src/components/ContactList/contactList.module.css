@@ -1,12 +1,22 @@
 .item {
   font-size: 30px;
   margin-bottom: 10px;
+  border: 1px solid black;
+  width: 470px;
+  height: 45px;
+  padding-left: 10px;
 }
 
 .btn {
   font-size: 20px;
   border-radius: 10px;
   margin-left: 10px;
+  margin-right: auto;
+}
+.btn:hover,
+.btn:focus {
+  color: brown;
+  border-color: brown;
 }
 .list {
   margin-left: 30px;
