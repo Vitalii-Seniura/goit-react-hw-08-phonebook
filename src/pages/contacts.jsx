@@ -15,11 +15,11 @@ export default function Contacts() {
   const isLoading = useSelector(selectors.selectIsLoading);
   const error = useSelector(selectors.selectError);
 
-  const addContactList = ({ name, phone }) => {
+  const addContactList = ({ name, number }) => {
     const searchName = name.toLowerCase();
     items.find(contact => contact.name.toLowerCase() === searchName)
       ? alert('contact is already in contacts')
-      : dispatch(operations.addContact({ name, phone }));
+      : dispatch(operations.addContact({ name, number }));
   };
 
   const handleDelete = itemId => {
