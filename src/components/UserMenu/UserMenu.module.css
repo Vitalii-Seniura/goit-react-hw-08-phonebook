@@ -7,3 +7,13 @@
 .username {
   font-weight: 700;
 }
+.btn {
+  font-size: 20px;
+  border-radius: 10px;
+}
+.btn:hover,
+.btn:focus {
+  border-color: blue;
+  color: blue;
+  background-color: rgb(204, 252, 235);
+}
